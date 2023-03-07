@@ -6,28 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gloria+Hallelujah&family=Pacifico&family=Rampart+One&family=Single+Day&display=swap" rel="stylesheet">
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
 </head>
 
 <body>
-    <h1>BEM Wars</h1>
+    <h1 class="page__header">BEM Wars</h1>
     <div class="container">
-        <div>
-            <h2>The Dark Side</h2>
+        <div class="card card-dark">
+            <h2 class="card__caption">The Dark Side</h2>
             <img src="./images/vader.jpeg">
-            <p>Nesting!</p>
-            <p>Conflict!</p>
-            <p>Specificity Wars!</p>
-            <p>Cookies</p>
+            <p class="card__favourite">Nesting!</p>
+            <p class="card__favourite">Conflict!</p>
+            <p class="card__favourite">Specificity Wars!</p>
+            <p class="card__favourite">Cookies</p>
+            <button class="button danger">Danger</button>
         </div>
 
-        <div>
-            <h2>The Force</h2>
+        <div class="card card-light">
+            <h2 class="card__caption">The Force</h2>
             <img src="./images/yoda.jpeg">
-            <p>Love</p>
-            <p>Beauty</p>
-            <p>CSS that Scales!</p>
-            <p>Great warrior. Wars not make one great!</p>
+            <p class="card__favourite">Love</p>
+            <p class="card__favourite">Beauty</p>
+            <p class="card__favourite">CSS that Scales!</p>
+            <p class="card__favourite">Great warrior. Wars not make one great!</p>
+            <button class="button safe">Safe</button>
+        </div>
+
+        <div class="card card-pink">
+            <h2 class="card__caption">The Princess</h2>
+            <img src="./images/princess-Leia.png">
+            <p class="card__favourite">Great Job</p>
+            <p class="card__favourite">OOCSS</p>
+            <p class="card__favourite">SASS</p>
+            <p class="card__favourite">Sushi</p>
+            <button class="button lovely">Lovely</button>
+        </div>
+
+        <div class="card card-cyan">
+            <h2 class="card__caption">The Judge</h2>
+            <img src="./images/sphero.png">
+            <p class="card__favourite">Rolling</p>
+            <p class="card__favourite">Flying</p>
+            <p class="card__favourite">LESS</p>
+            <p class="card__favourite">Finished</p>
+            <button class="button funny">Funny</button>
         </div>
     </div>
 </body>

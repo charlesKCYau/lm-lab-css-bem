@@ -1,0 +1,80 @@
+/* You can delete / re-write this img class  */
+img {
+  max-width: 200px;
+}
+
+/* Happy coding! */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Block */
+/* structure */
+.card {
+  margin: 5px;
+  border: 3px solid green;
+  padding: 10px;
+  font-size: 1.5rem;
+  height: auto;
+  width: 300px;
+  /* skin */
+  /* Element */
+}
+.card-dark {
+  background-color: black;
+  color: white;
+}
+.card-light {
+  background-color: white;
+  color: black;
+}
+.card-pink {
+  background-color: pink;
+  color: purple;
+}
+.card-cyan {
+  background-color: cyan;
+  color: crimson;
+}
+.card__caption {
+  font-family: "Pacifico", cursive;
+  font-size: 2.5rem;
+}
+.card__favourite {
+  font-family: "Single Day", cursive;
+  font-size: 1.5rem;
+}
+
+.page__header {
+  font-family: "Rampart One", cursive;
+  font-size: 5rem;
+  color: blue;
+}
+
+/* structure */
+.button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+/* skin */
+.danger {
+  background-color: red;
+}
+
+.safe {
+  background-color: green;
+}
+
+.lovely {
+  background-color: olive;
+}
+
+.funny {
+  background-color: khaki;
+}
+
+/*# sourceMappingURL=output.css.map */

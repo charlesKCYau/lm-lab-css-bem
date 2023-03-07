@@ -21,44 +21,44 @@ img {
     font-size: 1.5rem;
     height: auto;
     width: 300px;
-}
 
-/* skin */
-.card-dark {
-    background-color: black;
-    color: white;
-}
-
-.card-light {
+    /* skin */
+    &-dark {
+        background-color: black;
+        color: white;
+    }
+    &-light {
     background-color: white;
     color: black;
+    }
+
+    &-pink {
+        background-color: pink;
+        color: purple;
+    }
+    
+    &-cyan {
+        background-color: cyan;
+        color: crimson;
+    }
+    
+    /* Element */
+    &__caption {
+        font-family: 'Pacifico', cursive;
+        font-size: 2.5rem;
+    }
+
+    &__favourite {
+        font-family: 'Single Day', cursive;
+        font-size: 1.5rem;
+    }
 }
 
-.card-pink {
-    background-color: pink;
-    color: purple;
-}
-
-.card-cyan {
-    background-color: cyan;
-    color: crimson;
-}
 
 .page__header {
     font-family: 'Rampart One', cursive;
     font-size: 5rem;
     color: blue;
-}
-
-/* Element */
-.card__caption {
-    font-family: 'Pacifico', cursive;
-    font-size: 2.5rem;
-}
-
-.card__favourite {
-    font-family: 'Single Day', cursive;
-    font-size: 1.5rem;
 }
 
 /* structure */
